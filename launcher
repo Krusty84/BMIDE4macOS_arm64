@@ -1,0 +1,4 @@
+#!/bin/zsh
+export TC_ROOT="/Applications/Eclipse.app/Contents/Eclipse"
+export TC_MSG_ROOT="$TC_ROOT/lang/textserver"
+exec "$(dirname "$0")/eclipse" "$@"
